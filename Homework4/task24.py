@@ -26,4 +26,4 @@ for i in range(n-2):
         max = berry[0] + berry[n - 1] + berry[n - 2]
     if ((berry[0] + berry[1] + berry[n - 1]) > max):
         max = berry[0] + berry[1] + berry[n - 1]
-print (max)
+print(max)
