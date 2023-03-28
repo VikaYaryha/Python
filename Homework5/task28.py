@@ -7,6 +7,6 @@
 def sum(a, b):
     if b!=0:
         return a + sum(1, b-1)
-    return 1
+    return a
     
-print(sum(3, 15))
+print(sum(10, 0))
