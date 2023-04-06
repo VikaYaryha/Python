@@ -16,7 +16,8 @@
 def count_vowel(text: str) -> int:
     count = 0
     for i in text:
-        if i in 'аиеёоуыэюя': count += 1
+        if i in 'аиеёоуыэюя':
+            count += 1
     return count
 
 
